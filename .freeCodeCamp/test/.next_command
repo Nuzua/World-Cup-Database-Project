@@ -29,3 +29,12 @@ chmod +x queries.sh
 ./queries.sh
 ./insert_data.sh
 ./queries.sh
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+git remote set-url origin https://github.com/Nuzua/World-Cup-Database-Project.git
+git branch -M main
+git push -u origin main
+git checkout -b /world-cup-database-solution
+git checkout -b world-cup-database-solution
+git .add
+git add.
+git add .
